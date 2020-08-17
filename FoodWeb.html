@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>FOODWEB</title>
+<link rel = "stylesheet" type = "text/css" href = "./style.css" />
+<script defer src='JavaScript.js'></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="header">
+    </div>
+    <br><br>
+    <center>
+    <button class="button" onclick="dispAll()" id="all">All</button>
+    <button class="button" onclick="displayPastries()" id="Pastries">Pastries</button>
+    <button class="button" onclick="displayNonveg()" id="Non-Veg">Non-Veg</button>
+    <button class="button" onclick="displayBurger()" id="Burger">Burger</button>
+    <button class="button" onclick="displayPizza()" id="Pizza">Pizza</button>
+    
+    <br><br><br>
+        <input type="text" class="searchTxt" placeholder="Search your food.." id="searchText">
+        <button type="submit" class="searchBtn"  onclick=search()><i class="fa fa-search"></i></button>
+
+  
+ 
+    <div id="alll">
+        <div id="space" class="items" >
+        </div>
+        <div id="space2" class="items"  >
+        </div>
+        <div id="space3" class="items"  >
+        </div>
+        <div id="space4" class="items"  >
+        </div>
+        </div>
+    </center>
+    </body>
+</html>
